@@ -1,0 +1,29 @@
+git - Local repository for version control
+github- Remote/ cloud repository
+
+Commands:
+
+ls ->list all content , ls -a ->including hidden
+
+mkdir name -> make directory with name
+
+cd name -> change directory to name, cd.. ->change directory to previous folder(c:/user/folder-->c:/user) , cd/ -> to directly main start directory(c:/user/folder-->c:)
+
+git init ->initialize git repository
+
+git status ->status of changes made in folder
+
+touch name.txt -> create new file with name
+
+rm -rf name.txt ->removes file
+
+git add . -> send all files to staged state , git add name.txt ->send name file to staged state
+
+git commit -m "message" -> commits changes 
+
+git restore --staged name.txt -> when u want to restore to unstaged from staged before commiting
+
+git log -> shows all changes ,commits log
+
+
+
